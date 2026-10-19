@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad-wave" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC8DD"/>
+      <stop offset="50%" stop-color="#CDB4DB"/>
+      <stop offset="100%" stop-color="#A2D2FF"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#EAF6FF" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#BDE0FE" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="32" fill="#FAF5FF"/>
+  <!-- Wave frame -->
+  <path d="M220 90 Q170 120 180 180 Q190 240 170 300 Q150 360 175 420 Q200 480 260 490 Q320 500 370 470 Q420 440 410 380 Q400 320 420 260 Q440 200 415 140 Q390 80 320 85 Q260 90 220 90 Z" fill="url(#grad-wave)" stroke="#FFFFFF" stroke-width="8"/>
+  <!-- Glass mirror -->
+  <path d="M240 130 Q200 160 210 205 Q220 250 205 295 Q190 340 210 385 Q230 430 280 440 Q330 450 360 420 Q390 390 385 345 Q380 300 395 255 Q410 210 390 165 Q370 120 310 125 Z" fill="url(#glass)"/>
+  <!-- Gloss shine -->
+  <line x1="240" y1="180" x2="350" y2="390" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-opacity="0.75"/>
+  <!-- Y2K Sparkles -->
+  <path d="M140 160 L146 178 L164 184 L146 190 L140 208 L134 190 L116 184 L134 178 Z" fill="#FFC8DD"/>
+  <path d="M470 400 L478 422 L500 430 L478 438 L470 460 L462 438 L440 430 L462 422 Z" fill="#A2D2FF"/>
+</svg>

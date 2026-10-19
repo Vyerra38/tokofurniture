@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="velvet" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#E879F9"/>
+      <stop offset="60%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#6B21A8"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" rx="32" fill="#F5F3FF"/>
+  <!-- Round tufted cushion with metallic center button -->
+  <circle cx="300" cy="300" r="180" fill="url(#velvet)" stroke="#F3E8FF" stroke-width="8"/>
+  <!-- Crease folds -->
+  <path d="M300 300 L300 120 M300 300 L430 170 M300 300 L480 300 M300 300 L430 430 M300 300 L300 480 M300 300 L170 430 M300 300 L120 300 M300 300 L170 170" stroke="#581C87" stroke-width="4" stroke-opacity="0.4"/>
+  <!-- Center chrome button -->
+  <circle cx="300" cy="300" r="28" fill="#E2E8F0" stroke="#FFFFFF" stroke-width="4"/>
+  <circle cx="294" cy="294" r="8" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="acrylic" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#E0E7FF" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#DDD6FE" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#FCE7F3" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="32" fill="#EFF6FF"/>
+  <!-- Shelf panels -->
+  <path d="M120 220 L480 220 L450 320 L90 320 Z" fill="url(#acrylic)" stroke="#FFFFFF" stroke-width="4"/>
+  <path d="M90 320 L130 420 L490 420 L450 320 Z" fill="url(#acrylic)" fill-opacity="0.6" stroke="#FFFFFF" stroke-width="4"/>
+  <rect x="130" y="420" width="360" height="24" rx="8" fill="#C7D2FE" stroke="#818CF8" stroke-width="3"/>
+  <!-- Cute small decor items on shelf -->
+  <circle cx="210" cy="260" r="28" fill="#F472B6"/>
+  <rect x="340" y="240" width="40" height="55" rx="6" fill="#38BDF8"/>
+  <circle cx="360" cy="230" r="12" fill="#FDE047"/>
+  <!-- Y2K stars -->
+  <path d="M480 150 L486 166 L502 172 L486 178 L480 194 L474 178 L458 172 L474 166 Z" fill="#A855F7"/>
+</svg>

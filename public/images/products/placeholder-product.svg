@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAF6FF"/>
+      <stop offset="50%" stop-color="#BDE0FE"/>
+      <stop offset="100%" stop-color="#FFAFCC"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" rx="32" fill="url(#bg)"/>
+  <circle cx="300" cy="300" r="140" fill="#ffffff" fill-opacity="0.6" stroke="#ffffff" stroke-width="3" filter="url(#glow)"/>
+  <path d="M300 210 L318 268 L376 286 L318 304 L300 362 L282 304 L224 286 L282 268 Z" fill="#CDB4DB"/>
+  <text x="300" y="440" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" fill="#6B7280" text-anchor="middle">AuraSpace Studio ✦</text>
+</svg>

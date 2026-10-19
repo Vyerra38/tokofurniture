@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="egg-shell" cx="45%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="600" rx="32" fill="#E0F2FE"/>
+  <!-- Pod Shell -->
+  <ellipse cx="300" cy="270" rx="160" ry="180" fill="url(#egg-shell)" stroke="#FFFFFF" stroke-width="6"/>
+  <!-- Pod Interior -->
+  <ellipse cx="300" cy="270" rx="130" ry="150" fill="#FFAFCC"/>
+  <!-- Interior Seat cushion -->
+  <ellipse cx="300" cy="330" rx="110" ry="70" fill="#FFC8DD"/>
+  <!-- Chrome Swivel Base -->
+  <rect x="290" y="440" width="20" height="50" fill="#94A3B8"/>
+  <ellipse cx="300" cy="495" rx="100" ry="25" fill="#CBD5E1" stroke="#94A3B8" stroke-width="4"/>
+  <!-- Reflection on shell -->
+  <path d="M190 180 Q170 260 210 350" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" fill="none" stroke-opacity="0.8"/>
+</svg>

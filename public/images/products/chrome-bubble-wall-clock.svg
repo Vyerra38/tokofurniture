@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#EAF6FF"/>
+      <stop offset="100%" stop-color="#BDE0FE"/>
+    </radialGradient>
+    <linearGradient id="chrome" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="30%" stop-color="#94A3B8"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#64748B"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <filter id="bubble-shadow">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#38BDF8" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="600" height="600" rx="32" fill="url(#bg)"/>
+  <circle cx="300" cy="300" r="170" fill="url(#chrome)" filter="url(#bubble-shadow)"/>
+  <circle cx="300" cy="300" r="145" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="4"/>
+  <ellipse cx="250" cy="220" rx="70" ry="35" fill="#FFFFFF" fill-opacity="0.8" transform="rotate(-25 250 220)"/>
+  <!-- Clock dots -->
+  <circle cx="300" cy="180" r="8" fill="#3B82F6"/>
+  <circle cx="420" cy="300" r="8" fill="#3B82F6"/>
+  <circle cx="300" cy="420" r="8" fill="#3B82F6"/>
+  <circle cx="180" cy="300" r="8" fill="#3B82F6"/>
+  <!-- Hands -->
+  <line x1="300" y1="300" x2="300" y2="210" stroke="#0F172A" stroke-width="7" stroke-linecap="round"/>
+  <line x1="300" y1="300" x2="380" y2="300" stroke="#0F172A" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="300" cy="300" r="14" fill="#EC4899"/>
+  <!-- Star accents -->
+  <path d="M480 140 L488 165 L513 173 L488 181 L480 206 L472 181 L447 173 L472 165 Z" fill="#FFAFCC"/>
+  <path d="M120 440 L126 458 L144 464 L126 470 L120 488 L114 470 L96 464 L114 458 Z" fill="#A2D2FF"/>
+</svg>

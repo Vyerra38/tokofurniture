@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="holo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F472B6" stop-opacity="0.8"/>
+      <stop offset="33%" stop-color="#60A5FA" stop-opacity="0.7"/>
+      <stop offset="66%" stop-color="#34D399" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FBBF24" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="32" fill="#FDF4FF"/>
+  <!-- Stem & flower -->
+  <path d="M300 240 Q310 160 300 120" stroke="#10B981" stroke-width="6" fill="none"/>
+  <circle cx="300" cy="110" r="30" fill="#FFC8DD"/>
+  <circle cx="300" cy="110" r="14" fill="#FDE047"/>
+  <!-- Vase body: wavy geometric translucent -->
+  <path d="M230 220 L370 220 L390 320 L210 320 Z" fill="url(#holo)" stroke="#FFFFFF" stroke-width="4"/>
+  <path d="M210 320 L390 320 L350 470 L250 470 Z" fill="url(#holo)" stroke="#FFFFFF" stroke-width="4"/>
+  <!-- Glass shine -->
+  <line x1="250" y1="230" x2="270" y2="450" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-opacity="0.7"/>
+  <circle cx="480" cy="200" r="15" fill="#C084FC" fill-opacity="0.7"/>
+</svg>

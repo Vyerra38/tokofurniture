@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="trans-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A2D2FF" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#BDE0FE" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#FFC8DD" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="32" fill="#FDF2F8"/>
+  <!-- Box lid -->
+  <path d="M120 210 L300 140 L480 210 L300 280 Z" fill="#FFAFCC" stroke="#FFFFFF" stroke-width="6"/>
+  <!-- Box front left -->
+  <path d="M120 210 L300 280 L300 440 L120 370 Z" fill="url(#trans-blue)" stroke="#FFFFFF" stroke-width="4"/>
+  <!-- Box front right -->
+  <path d="M300 280 L480 210 L480 370 L300 440 Z" fill="#BDE0FE" fill-opacity="0.8" stroke="#FFFFFF" stroke-width="4"/>
+  <!-- Side handle cutout -->
+  <rect x="180" y="275" width="45" height="15" rx="7" fill="#FFFFFF" fill-opacity="0.85"/>
+  <rect x="375" y="275" width="45" height="15" rx="7" fill="#FFFFFF" fill-opacity="0.85"/>
+  <!-- Sparkle -->
+  <path d="M490 120 L496 136 L512 142 L496 148 L490 164 L484 148 L468 142 L484 136 Z" fill="#F472B6"/>
+</svg>

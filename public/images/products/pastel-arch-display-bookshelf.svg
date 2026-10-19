@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="arch-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#CDB4DB"/>
+      <stop offset="50%" stop-color="#FFC8DD"/>
+      <stop offset="100%" stop-color="#BDE0FE"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="32" fill="#FAF5FF"/>
+  <!-- Arch frame -->
+  <path d="M160 500 L160 250 A 140 140 0 0 1 440 250 L440 500 Z" fill="none" stroke="url(#arch-grad)" stroke-width="24"/>
+  <!-- Shelves -->
+  <line x1="165" y1="270" x2="435" y2="270" stroke="url(#arch-grad)" stroke-width="12"/>
+  <line x1="165" y1="360" x2="435" y2="360" stroke="url(#arch-grad)" stroke-width="12"/>
+  <line x1="165" y1="450" x2="435" y2="450" stroke="url(#arch-grad)" stroke-width="12"/>
+  <!-- Decor items on shelves -->
+  <rect x="200" y="220" width="25" height="45" rx="4" fill="#38BDF8"/>
+  <circle cx="370" cy="245" r="20" fill="#F472B6"/>
+  <rect x="250" y="325" width="45" height="30" rx="4" fill="#A855F7"/>
+  <ellipse cx="360" cy="335" rx="15" ry="22" fill="#FEF08A"/>
+</svg>

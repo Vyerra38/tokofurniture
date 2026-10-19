@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="lamp-glow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#FFFBEB"/>
+      <stop offset="80%" stop-color="#FEF08A"/>
+      <stop offset="100%" stop-color="#FDE047" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cloud-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E0F2FE"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="32" fill="#F0FDF4"/>
+  <circle cx="300" cy="270" r="190" fill="url(#lamp-glow)"/>
+  <!-- Cloud body -->
+  <path d="M210 330 Q170 330 165 290 Q160 250 200 240 Q215 190 270 190 Q315 190 335 215 Q375 200 405 230 Q435 260 420 300 Q445 330 410 350 Q380 360 300 360 Q240 360 210 330 Z" fill="url(#cloud-grad)" stroke="#BAE6FD" stroke-width="5"/>
+  <!-- Face/cute smile -->
+  <circle cx="270" cy="280" r="6" fill="#64748B"/>
+  <circle cx="340" cy="280" r="6" fill="#64748B"/>
+  <path d="M295 300 Q305 315 315 300" fill="none" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+  <!-- Blush -->
+  <circle cx="250" cy="295" r="10" fill="#FFAFCC" fill-opacity="0.7"/>
+  <circle cx="360" cy="295" r="10" fill="#FFAFCC" fill-opacity="0.7"/>
+  <!-- Metallic Stand -->
+  <rect x="290" y="360" width="20" height="90" rx="10" fill="#94A3B8"/>
+  <ellipse cx="300" cy="460" rx="80" ry="22" fill="#CBD5E1" stroke="#94A3B8" stroke-width="3"/>
+</svg>
